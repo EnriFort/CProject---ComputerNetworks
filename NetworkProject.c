@@ -40,8 +40,8 @@ int main () {
 	int yes=1;
 	if ( setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(yes)) == -1 ) {
 		perror("setsockopt");
-		exit(1);*/
-	}
+		exit(1);
+	}*/
 
 	if ( bind(sockfd, (struct sockaddr *) &server_addr, 
 		sizeof(server_addr)) < 0 ) { 
