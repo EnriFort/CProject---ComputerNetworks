@@ -1,2 +1,2 @@
 # CProject-ComputerNetworks
-Piccolo progetto di Reti degli Elaboratori scritto in C. 
+Small Computer Networks project written in C.
